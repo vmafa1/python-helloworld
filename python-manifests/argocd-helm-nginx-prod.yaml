@@ -12,6 +12,6 @@ spec:
     helm:
       valueFiles:
       - values-prod.yaml
-    path: python-manifests
+    path: helm/python-helloworld/
     repoURL: https://github.com/vmafa1/python-helloworld 
     targetRevision: HEAD
