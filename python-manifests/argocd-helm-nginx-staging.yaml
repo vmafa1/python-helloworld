@@ -12,6 +12,6 @@ spec:
     helm:
       valueFiles:
       - values-staging.yaml
-     path: helm/python-helloworld/
+     path: helm/nginx-deployment/
     repoURL: https://github.com/vmafa1/python-helloworld/ 
     targetRevision: HEAD
